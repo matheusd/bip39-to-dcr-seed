@@ -33,7 +33,7 @@ func main() {
 
 	chainParams := &chaincfg.MainNetParams
 	if cmdOpts.TestNet {
-		chainParams = &chaincfg.TestNet2Params
+		chainParams = &chaincfg.TestNet3Params
 	}
 
 	coinType := chainParams.SLIP0044CoinType

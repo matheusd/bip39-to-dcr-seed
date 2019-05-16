@@ -14,11 +14,10 @@ from the BIP39 source seed.
 
 ## Running
 
-Go 1.10 and [dep](https://github.com/golang/dep/releases) required.
+Go 1.12+ with modules support required.
 
 ```
-git clone https://github.com/matheusd/bip39-to-dcr-seed $GOPATH/src/github.com/matheusd/bip39-to-dcr-seed
-cd $GOPATH/src/github.com/matheusd/bip39-to-dcr-seed
-dep ensure
-go run *.go --help
+git clone https://github.com/matheusd/bip39-to-dcr-seed
+cd bip39-to-dcr-seed
+go run . --help
 ```
